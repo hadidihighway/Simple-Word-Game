@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>My App</title>
+    <link rel="stylesheet" href="/static/sheet.css">  <!-- move it here -->
+
+</head>
+<body>
+    <div id="grid">
+        {% for row in range(6) %}
+            {% for column in range(5) %}
+            <div class="tile" id="tile-{{column}}-{{row}}"></div>
+            {% endfor %}
+        {% endfor %}
+        
+    </div>
+</body>
+</html>

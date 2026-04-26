@@ -1,0 +1,17 @@
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5,60px);
+    gap: 5px;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
